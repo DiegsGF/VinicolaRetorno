@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Muli|Oxygen|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Varela');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
+.nav_options{
+  font-family: "Oxygen";
+  font-size: 20px;
+  margin: 0px 10px;
+  color: white;
+  margin-top: 30px;
+}
+
+#landing_body_background{
+  background-image: url("../images/wineBarrels2bis.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+#navbar{
+  background-color: rgba(0,0,0,.4);
+  height: 120;
+}
+
+#nav_options_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 0px auto;
+}
+
+#center_logo{
+  width: 200px;
+  margin: 7px 0px;
+}
+
+#mid_image_text{
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: lighter;
+  color: white;
+  width: 1000px;
+  margin: 200px auto 0px auto;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+#footer{
+  height: 200px;
+  /*background-color: rgba(66,76,85,.8);*/
+  /*background-color: rgba(42,43,42,.9);*/
+  background-color: rgba(40,40,41,1);
+  border-top: 3px solid rgba(255,255,255,1);
+}
