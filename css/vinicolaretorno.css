@@ -88,6 +88,11 @@
 
 .option_mini_navbar{
   border-bottom: 1px solid rgba(255,255,255,.3);
+  font-size: 18px;
+}
+
+#active{
+  color: rgba(255,15,43,1);
 }
 
 #nav_options_container{
@@ -315,7 +320,6 @@
 }
 
 @media only screen and (max-width: 900px){
-
   #mid_image_text_container{
     width: 750px;
   }
@@ -357,9 +361,9 @@
 }
 
 @media only screen and (max-width: 850px){
-
   #mid_image_text_container{
     width: 750px;
+    font-size: 36px;
   }
 
   #footer{
@@ -399,7 +403,6 @@
 }
 
 @media only screen and (max-width: 800px){
-
   #burger_button_container{
     display: flex;
     justify-content: flex-end;
@@ -463,7 +466,6 @@
 }
 
 @media only screen and (max-width: 768px){
-
   #landing_body_background{
     height: 824px;
   }
@@ -512,9 +514,13 @@
 }
 
 @media only screen and (max-width: 760px){
-
   #mid_image_text_container{
     width: 720px;
+    font-size: 32px;
+  }
+
+  #mid_image_text{
+    margin-bottom: 340px;
   }
 
   #footer{
@@ -557,7 +563,6 @@
 }
 
 @media only screen and (max-width: 720px){
-
   #mid_image_text_container{
     width: 95%;
   }
@@ -602,6 +607,103 @@
 
   #logo_footer{
     width: 120px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #landing_body_background{
+    height: 100vh;
+    overflow: auto;
+  }
+
+  #mid_image_text_container{
+    font-size: 25px;
+  }
+
+  #mid_image_text{
+    margin-bottom: 40vh;
+  }
+
+  #footer{
+    font-size: 13px;
+    height: inherit;
+  }
+
+  .footer_option{
+    width: 80%;
+    height: inherit;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  #footer_options_container{
+    flex-flow: column-reverse;
+  }
+
+  #left_option{
+    border: none;
+    border-top: 1px solid rgba(255,15,43,1);
+  }
+
+  #center_option{
+    border: none;
+    border-top: 1px solid rgba(255,15,43,1);
+    border-bottom: 1px solid rgba(255,15,43,1);
+  }
+
+  #right_option{
+    border: none;
+    border-bottom: 1px solid rgba(255,15,43,1);
+  }
+
+  .footer_headline{
+    font-size: 17px;
+    height: 25px;
+    margin-top: 0px;
+  }
+
+  .info_cities{
+    font-size: 15px;
+  }
+
+  #info_visit{
+    font-size: 14px;
+  }
+
+  #info_address{
+    font-size: 13px;
+    width: 100%;
+  }
+
+  #social_media_container{
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .social_media{
+    width: 45px;
+    height: 45px;
+  }
+
+  #logo_footer{
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  #vinicola_legal{
+    margin-bottom: 10px;
+   }
+
+
+}
+
+@media only screen and (max-width: 320px){
+  #mid_image_text{
+    margin-bottom: 35vh;
+  }
+
+  .option_mini_navbar{
+    font-size: 17px;
   }
 }
 /* A partir de aqui tiene que ser 414px
