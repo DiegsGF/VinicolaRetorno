@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Muli|Oxygen|Raleway|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Varela');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 a {
   text-decoration: none;
@@ -164,7 +163,7 @@ background-position: center;
   color: white;
   width: 1000px;
   text-align: center;
-  text-shadow: 0 0 5px rgba(0,0,0,.8);
+  text-shadow: 0 0 20px rgba(0,0,0,1);
 }
 
 #mid_image_text{
@@ -260,6 +259,62 @@ background-position: center;
   /*with: 0;*/
   height: 1px;
   background: rgba(255,15,43,1);
+}
+
+
+#main_wine_container{
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_bottle_container{
+  height: 600px;
+}
+
+#text_wine_container{
+  width: 450px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main_wine_name{
+  font-family: 'Poiret One', cursive;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.wine_header{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.wine_header::after{
+  content: '';
+  display: block;
+  width: 38%;
+  /*with: 0;*/
+  height: 1px;
+  background: rgba(43,43,43,.9);
+  margin-top: -3px;
+}
+
+.wine_txt{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  margin: 5px 0px;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 #footer{
