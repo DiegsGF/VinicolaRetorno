@@ -317,6 +317,11 @@ background-position: center;
   font-weight: bold;
 }
 
+b{
+  font-weight: bold;
+}
+
+
 #footer{
   height: 200px;
   /*background-color: rgba(66,76,85,.8);*/
