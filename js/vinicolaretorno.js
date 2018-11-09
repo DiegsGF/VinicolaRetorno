@@ -52,6 +52,7 @@ function parabolaBlanco(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = parabola_blanco_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function teo(){
@@ -107,6 +108,7 @@ function teo(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = teo_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function piluchas(){
@@ -160,6 +162,7 @@ function piluchas(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = piluchas_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function parabola(){
@@ -215,6 +218,7 @@ function parabola(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = parabola_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function palabra(){
@@ -270,6 +274,7 @@ function palabra(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = palabra_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function homenaje(){
@@ -325,6 +330,7 @@ function homenaje(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = homenaje_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function retorno(){
@@ -380,6 +386,7 @@ function retorno(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = retorno_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
 
 function decada(){
@@ -435,4 +442,5 @@ function decada(){
 
   document.getElementById("main_wine_container").innerHTML = "";
   document.getElementById("main_wine_container").innerHTML = decada_info;
+  document.getElementById('main_wine_container').scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
