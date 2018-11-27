@@ -42,13 +42,13 @@
             <img src="images/logoBlanco.svg" id="center_logo">
             </a>
           </div>
-          <div class="nav_options" id="active_nav">
+          <div class="nav_options" >
             <a href="puntos_venta.html">
               Puntos de Venta
             </a>
           </div>
           <div class="nav_options">
-            <a href="visitanos.html">
+            <a href="visitanos.html" id="active_nav">
               Visítanos
             </a>
           </div>
@@ -70,12 +70,12 @@
               Nuestos Vinos
             </a>
           </div>
-          <div class="option_mini_navbar" id="active">
+          <div class="option_mini_navbar">
             <a href="puntos_venta.html">
               Puntos de Venta
             </a>
           </div>
-          <div class="option_mini_navbar">
+          <div class="option_mini_navbar" id="active">
             <a href="visitanos.html">
               Visítanos
             </a>
@@ -84,135 +84,49 @@
       </div>
       <div id="sec_mid_image_text">
         <div id="mid_image_text_container">
-          Puntos de Venta
+          Visítanos
         </div>
       </div>
     </div>
-
-
     <div id="main_body_container">
       <div id="main_body_title">
-        ¿Dónde encontrarnos?
+        Ven a conocernos
       </div>
       <div id="main_body">
-        <div id="all_sellpoint_container">
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
+        <div id="map_container">
+          <div class="mapouter"><div class="gmap_canvas">
+            <iframe width="1000" height="500" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=vinicola%20retorno&t=&z=11&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://www.crocothemes.net"></a></div>
+            <style>.mapouter{text-align:right;height:500px;width:1000px;}.gmap_canvas
+            {overflow:hidden;background:none!important;height:500px;width:1000px;}</style>
           </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-          <div class="sellpoint_container">
-            <div class="sellpoint_logo">
-
-            </div>
-            <div class="sellpoint_name">
-              Liverpool
-            </div>
-          </div>
-
-
-
-
-
         </div>
 
+        <div class="contact_container">
+          <div class="city_container">
+            <div class="city_title">
+              Valle de Guadalupe
+            </div>
+            <div class="city_info">
+              <a href="tel:+5216461519247">
+                646-151-92-47<br>
+              </a>
+              <a href="mailto:info@vinicolaretorno.com">
+                info@vinicolaretorno.com
+              </a>
+            </div>
+          </div>
+          <div class="city_container">
+            <div class="city_title">
+              CDMX
+            </div>
+            <div class="city_info">
 
-
-
-
-
-
+            </div>
+          </div>
+        </div>
 
 
 
@@ -301,6 +215,10 @@
     </div>
 
 
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgqwEQW7iRIh2_1EOKTEHtHM8ccGQ4PJE&callback=initMap"
+      type="text/javascript"></script>
     <script type="text/javascript" src="js/vinicolaretorno.js">
     </script>
   </body>

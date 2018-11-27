@@ -384,6 +384,13 @@ b{
 
 }
 
+#map_container{
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 30px;
+
+}
+
 #footer{
   height: 200px;
   /*background-color: rgba(66,76,85,.8);*/
