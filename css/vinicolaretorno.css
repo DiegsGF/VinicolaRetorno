@@ -381,7 +381,22 @@ b{
   font-size: 19px;
   color:black;
   text-align: center;
+}
 
+.visit_container{
+  text-align: center;
+  font-size: 18px;
+  font-family: "Raleway";
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.visit_headline{
+  font-size: 24px;
+}
+
+#visit_bottom{
+  margin-bottom: 0px;
 }
 
 #map_container{
@@ -507,6 +522,41 @@ b{
   #mid_image_text{
     margin-bottom: 550px;
   }
+
+  .sellpoint_container{
+    height: 130px;
+    width: 115px;
+    margin: 15px;
+  }
+
+  .sellpoint_logo{
+    width: 115px;
+    height: 115px;
+  }
+
+  .bottle{
+    width: 85px;
+    height: 177px;
+  }
+
+  .wine_name{
+    font-size: 20px;
+    margin: 15px auto;
+  }
+
+  .winetype_name{
+    font-size: 15px;
+    margin: 0px auto 25px auto;
+  }
+
+  #all_bottle_container{
+    margin: 5px auto 20px auto;
+  }
+
+  #visit_top{
+    margin-top:-10px;
+  }
+
 }
 
 @media only screen and (max-height: 1366px) {
