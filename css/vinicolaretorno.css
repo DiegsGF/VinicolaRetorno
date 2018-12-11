@@ -200,7 +200,6 @@ background-position: center;
 
 #main_body_title{
   font-family: "Raleway";
-  width: 1000px;
   font-size: 40px;
   color: black;
   text-align: center;
@@ -231,14 +230,6 @@ background-position: center;
   background-color: gray;
   width: 630px;
   height: 350px;
-}
-
-#no_margin{
-  margin: 0px 0px;
-}
-
-#invert_breakpoint{
-
 }
 
 #no_center{
@@ -412,7 +403,6 @@ b{
   width: 1000px;
   height: 500px;
   margin-bottom: 30px;
-
 }
 
 #footer{
@@ -523,6 +513,10 @@ b{
     height: 1240px;
   }
 
+  .body_background{
+    height: 700px;
+  }
+
   #mid_image_text_container{
     font-size: 45px;
     width: 1300px;
@@ -530,6 +524,10 @@ b{
 
   #mid_image_text{
     margin-bottom: 550px;
+  }
+
+  #sec_mid_image_text{
+    margin-bottom: 270px;
   }
 
   .sellpoint_container{
@@ -646,6 +644,21 @@ b{
   #social_media_container{
     width: 165px;
   }
+
+  #main_body{
+    width: 900px;
+  }
+
+  .our_story_txt{
+    width: 285px;
+    font-size: 15px;
+  }
+
+  .our_story_img{
+    width: 585px;
+    height: 350px;
+  }
+
 }
 
 @media only screen and (max-width: 900px){
@@ -687,12 +700,42 @@ b{
     width: 160px;
     margin-top: 31px;
   }
+
+  #main_body{
+    width: 840px;
+  }
+
+  .our_story_txt{
+    width: 270px;
+    font-size: 14.3px;
+  }
+
+  .our_story_img{
+    width: 550px;
+    height: 340px;
+  }
+
 }
 
 @media only screen and (max-width: 850px){
   #mid_image_text_container{
     width: 750px;
     font-size: 36px;
+  }
+
+  #main_body{
+    width: 800px;
+    margin: 0px auto 40px auto;
+  }
+
+  .our_story_txt{
+    width: 255px;
+    font-size: 13.9px;
+  }
+
+  .our_story_img{
+    width: 515px;
+    height: 335px;
   }
 
   #footer{
@@ -754,6 +797,20 @@ b{
     width: 740px;
   }
 
+  #main_body{
+    width: 768px;
+  }
+
+  .our_story_txt{
+    width: 245px;
+    font-size: 13.9px;
+  }
+
+  .our_story_img{
+    width: 505px;
+    height: 335px;
+  }
+
   #footer{
     font-size: 11px;
   }
@@ -803,6 +860,26 @@ b{
     width: 720px;
   }
 
+  #main_body_title{
+    font-size: 35px;
+    margin: 40px auto 30px auto;
+  }
+
+  #main_body{
+    width: 760px;
+    margin: 0px auto 40px auto;
+  }
+
+  .our_story_txt{
+    width: 240px;
+    font-size: 13.4px;
+  }
+
+  .our_story_img{
+    width: 495px;
+    height: 335px;
+  }
+
   #footer{
     font-size: 11px;
   }
@@ -850,6 +927,36 @@ b{
 
   #mid_image_text{
     margin-bottom: 340px;
+  }
+
+  #main_body{
+    width: 720px;
+    margin: 0px auto 40px auto;
+  }
+
+  .our_story_row{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #invert_breakpoint{
+    flex-direction: column-reverse;
+  }
+
+  .our_story_txt{
+    width: 650px;
+    font-size: 13.5px;
+    margin: 0px auto 20px auto;
+  }
+
+  #no_center{
+    margin: 0px auto 20px auto;
+  }
+
+  .our_story_img{
+    width: 650px;
+    height: 330px;
+    margin: 0px auto;
   }
 
   #footer{
