@@ -65,6 +65,9 @@ a:hover {
   color: rgba(255,255,255,1);
 }
 
+
+
+
 #landing_body_background{
   background-image: url("../images/wineBarrels2bis.jpg");
   height: 800px;
@@ -84,6 +87,12 @@ a:hover {
   flex-flow: column;
   justify-content: space-between;
 }
+
+
+
+
+
+
 
 #nosotros_background{
 background-image: url("../images/nuestra_vinicola.jpg");
@@ -534,13 +543,17 @@ b{
     height: 115px;
   }
 
+  .bottle_container{
+    margin: 0px 5px;
+  }
+
   .bottle{
     width: 85px;
     height: 177px;
   }
 
   .wine_name{
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px auto;
   }
 
