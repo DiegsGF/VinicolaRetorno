@@ -195,7 +195,6 @@ background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 #main_body_title{
@@ -265,6 +264,10 @@ background-position: center;
   align-items: flex-start;
 }
 
+#breakpoint_all_bottle_container{
+  display: none;
+}
+
 .winetype{
   display: flex;
   flex-direction: column;
@@ -289,7 +292,7 @@ background-position: center;
 
 .wine_name{
   font-family: "Raleway";
-  font-size: 19px;
+  font-size: 18px;
   color: black;
   text-align: center;
   width: 80;
@@ -299,7 +302,7 @@ background-position: center;
 
 .winetype_name{
   font-family: "Raleway";
-  font-size: 12px;
+  font-size: 16px;
   color: black;
   margin: 0px auto 15px auto;
   padding: 0px 15px;
@@ -576,7 +579,7 @@ b{
   }
 
   .winetype_name{
-    font-size: 15px;
+    font-size: 16px;
     margin: 0px auto 25px auto;
   }
 
@@ -726,7 +729,7 @@ b{
   }
 
   .winetype_name{
-    font-size: 13px;
+    font-size: 15px;
   }
 
   #footer{
@@ -1052,7 +1055,7 @@ b{
 
   .our_story_txt{
     width: 650px;
-    font-size: 13.5px;
+    font-size: 15px;
     margin: 0px auto 20px auto;
   }
 
@@ -1182,12 +1185,23 @@ b{
 
   .our_story_txt{
     width: 580px;
-    font-size: 13px;
   }
 
   .our_story_img{
     width: 580px;
     height: 300px;
+  }
+
+  #main_wine_name{
+    font-size: 32px;
+  }
+
+  .wine_header{
+    font-size: 21px;
+  }
+
+  .wine_txt{
+    font-size: 15px;
   }
 
 
@@ -1382,7 +1396,6 @@ b{
 
   .our_story_txt{
     width: 90%;
-    font-size: 13px;
   }
 
   .our_story_img{
@@ -1588,9 +1601,134 @@ b{
   #vinicola_legal{
     margin-bottom: 10px;
    }
+}
+
+
+
+
+@media only screen and (max-width: 490px){
+
+  #all_bottle_container{
+    display: none;
+  }
+
+  #breakpoint_all_bottle_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #main_wine_container{
+    display: none;
+    margin: none;
+  }
+
+  .winetype{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .winetype_bottle_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottle_container{
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 30px 0px;
+    width: 100%;
+  }
+
+  .bottle{
+    width: auto;
+    height: 210px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .wine_name{
+    font-family: "Raleway";
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    width: 80;
+    margin: 10px auto;
+    line-height: 1.2;
+  }
+
+  .winetype_name{
+    font-family: "Raleway";
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin: 0px auto 25px auto;
+    padding: 0px 15px;
+    width: 70%;
+  }
+
+  .winetype_name::after{
+    content: '';
+    display: block;
+    width: 100%;
+    /*with: 0;*/
+    height: 1px;
+    background: rgba(255,15,43,1);
+  }
+
+  #text_wine_container{
+    width: 90%;
+    margin-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #main_wine_name{
+    font-family: 'Poiret One', cursive;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+
+  .wine_header{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+  }
+
+  .wine_header::after{
+    content: '';
+    display: block;
+    width: 100%;
+    padding: 0 20%;
+    /*with: 0;*/
+    height: 1px;
+    background: rgba(43,43,43,.9);
+    margin-top: -3px;
+  }
+
+  .wine_txt{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    margin: 15px 0px 10px 0px;
+    line-height: 1.2;
+    text-align: justify;
+  }
+
+
+
+
+
+
 
 
 }
+
+
 
 @media only screen and (max-width: 320px){
   #mid_image_text{
