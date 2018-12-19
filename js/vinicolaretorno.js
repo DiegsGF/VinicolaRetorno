@@ -836,3 +836,14 @@ function decadaExpand(){
   document.getElementById("decada_expand").innerHTML = decada_info_expand;
   document.getElementById("decada_expand").scrollIntoView({ behavior: 'smooth', block: 'end' });
 }
+
+function mapsApp() {
+  if /* if we're on iOS, open in Apple Maps */
+    ((navigator.platform.indexOf("iPhone") != -1) ||
+     (navigator.platform.indexOf("iPod") != -1) ||
+     (navigator.platform.indexOf("iPad") != -1))
+    window.open("maps://goo.gl/maps/i4ayPiigYf22");
+
+  else /* else use Google */
+    window.open("https://goo.gl/maps/i4ayPiigYf22");
+}

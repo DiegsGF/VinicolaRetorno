@@ -422,10 +422,21 @@ b{
   margin-bottom: 0px;
 }
 
-#map_container{
+#location_icon_container{
+  display: none;
+}
+
+#map_container_main{
   width: 1000px;
   height: 500px;
-  margin-bottom: 30px;
+  margin: 0px auto 30px auto;
+}
+
+#map_container_link{
+  width: 1000px;
+  height: 500px;
+  margin: 0px auto 30px auto;
+  display: none;
 }
 
 #footer{
@@ -495,10 +506,26 @@ b{
   font-size: 17px;
 }
 
-#info_address{
+.info_address{
   font-size: 13px;
   width: 200px;
   margin: 10px auto 0px auto;
+}
+
+#adress_main{
+  display: inline;
+}
+
+#adress_link{
+  display: none;
+}
+
+#info_adress_main{
+  display: flex;
+}
+
+#info_adress_link{
+  display: none;
 }
 
 #social_media_container{
@@ -656,6 +683,10 @@ b{
     width: 900px;
   }
 
+  #map_container_main{
+    width: 900px;
+  }
+
   #footer{
     font-size: 13px;
   }
@@ -677,7 +708,7 @@ b{
     font-size: 17px;
   }
 
-  #info_address{
+  .info_address{
     width: 190px;
     font-size: 13px;
     margin: 10px auto 0px auto;
@@ -687,7 +718,7 @@ b{
     font-size: 16px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 13px;
   }
 
@@ -732,6 +763,10 @@ b{
     font-size: 15px;
   }
 
+  #map_container{
+    width: 840px;
+  }
+
   #footer{
     font-size: 13px;
   }
@@ -757,7 +792,7 @@ b{
     font-size: 16px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 13px;
     width: 190px;
   }
@@ -806,6 +841,10 @@ b{
     width: 800px;
   }
 
+  #map_container_main{
+    width: 800px;
+  }
+
   #footer{
     font-size: 12px;
   }
@@ -831,7 +870,7 @@ b{
     font-size: 15px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 12px;
     width: 185px;
   }
@@ -895,6 +934,10 @@ b{
     width: 768px;
   }
 
+  #map_container_main{
+    width: 768px;
+  }
+
   #footer{
     font-size: 11px;
   }
@@ -919,7 +962,7 @@ b{
     font-size: 14px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 11px;
     width: 180px;
   }
@@ -986,6 +1029,10 @@ b{
     width: 760px;
   }
 
+  #map_container_main{
+    width: 760px;
+  }
+
   #footer{
     font-size: 11px;
   }
@@ -1010,7 +1057,7 @@ b{
     font-size: 14px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 11px;
     width: 160px;
   }
@@ -1121,7 +1168,9 @@ b{
 
 
 
-
+  #map_container_main{
+    width: 720px;
+  }
 
 
 
@@ -1150,7 +1199,7 @@ b{
     font-size: 14px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 11px;
     width: 160px;
   }
@@ -1320,7 +1369,9 @@ b{
 
 */
 
-
+  #map_container_main{
+    width: 90%;
+  }
 
 
 
@@ -1348,7 +1399,7 @@ b{
     font-size: 11px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 9px;
     width: 85%;
   }
@@ -1525,12 +1576,41 @@ b{
 
 */
 
+  #location_icon_container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
 
+  .location_icon{
+    width: 30px;
+    height: 45px;
+  }
 
+  #adress_main{
+    display: none;
+  }
 
+  #adress_link{
+    display: flex;
+  }
 
+  #map_container_main{
+    display: none;
+  }
 
+  #map_container_link{
+    display: flex;
+    width: 90%;
+  }
 
+  #info_adress_main{
+    display: none;
+  }
+
+  #info_adress_link{
+    display: inline;
+  }
 
   #footer{
     font-size: 13px;
@@ -1578,7 +1658,7 @@ b{
     font-size: 14px;
   }
 
-  #info_address{
+  .info_address{
     font-size: 13px;
     width: 100%;
   }
