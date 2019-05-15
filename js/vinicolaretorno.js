@@ -242,7 +242,6 @@ function loadNosotros(){
   +      "<div class='our_story_row'>"
   +        "<div class='our_story_txt'>"
   +          "Vinícola Retorno es un proyecto familiar creado en el año 2008 por el productor"
-
   +          " Adrián García. Nuestra cava está ubicada en San Antonio de las Minas, dentro del"
   +          " Valle de Guadalupe en el municipio de Ensenada.<br>"
   +          "<br>"
