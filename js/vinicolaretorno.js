@@ -271,7 +271,7 @@ function loadNosotros(){
   +    "<div class='our_story_row' >"
   +      "<div class='our_story_txt' id='no_center'>"
   +        "En la actualidad, la producción anual de Vinícola Retorno asciende a aproximadamente"
-  +        " dosmil quinientas cajas de vino que se presentan en nuestras etiquetas: Parábola Blanco, TeO, Pluchas,"
+  +        " dos mil quinientas cajas de vino que se presentan en nuestras etiquetas: Parábola Blanco, TeO, Pluchas,"
   +        " Parábola, Palabra, Homenaje, Retorno  y Década.<br>"
   +        "<br>"
   +        "Aventúrese a descubrir las delicias que el terruño bajacaliforniano tiene para ofrecerle"
