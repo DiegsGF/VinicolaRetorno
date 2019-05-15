@@ -66,7 +66,7 @@ a:hover {
 }
 
 #landing_body_background{
-  background-image: url("/images/indexImage.jpg");
+  background-image: url("../images/indexImage.jpg");
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
